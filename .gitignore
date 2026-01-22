@@ -1,0 +1,34 @@
+# ====================
+# Python cache
+# ====================
+__pycache__/
+*.py[cod]
+
+# ====================
+# Virtual environment
+# ====================
+ragenv/
+
+# ====================
+# Data & Vector DB
+# ====================
+data/
+vectordb/
+
+# ====================
+# Vector indexes & metadata
+# ====================
+*.faiss
+*.pkl
+
+# ====================
+# Secrets / configs
+# ====================
+config.py
+.env
+
+# ====================
+# OS files
+# ====================
+Thumbs.db
+.DS_Store
