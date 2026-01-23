@@ -25,7 +25,7 @@ def search(query, k=5):
     return [texts[i] for i in indices[0]]
 
 def answer_question(question, chunks):
-    print(chunks)
+    # print(chunks)
     context = "\n\n".join(chunks)
     # print("lllllllllllllllllllllllllllllllll",context,"LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL")
 
